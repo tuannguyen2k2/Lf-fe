@@ -1,0 +1,27 @@
+.item {
+    padding: 16px 24px;
+    cursor: pointer;
+    .title {
+        // margin-top: 20px;
+        margin-bottom: 2px;
+    }
+    .numberstart {
+        color: var(--star-color);
+    }
+
+    .money {
+        color: var(--primary-color);
+    }
+}
+.oldprice {
+    text-decoration-line: line-through;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activeItem{
+    background-color: var(--background-color-light);
+}

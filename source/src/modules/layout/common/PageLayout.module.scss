@@ -1,0 +1,22 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 0.66fr 0.33fr;
+    margin-top: 2rem !important;
+}
+.breadcrumb{
+    margin-bottom: 1rem;
+}
+
+.banner{
+    color: var(--text-color-light);
+    background-color: var(--primary-color);
+    height: var(--banner-cart-height);
+    font-size: var(--big-font-size);
+    font-weight: var(--font-bold);
+}
+
+.bannerContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

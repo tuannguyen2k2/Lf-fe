@@ -1,0 +1,15 @@
+.services {
+}
+
+.title {
+    color: var(--primary-color);
+    padding-top: 2rem;
+    // margin-bottom: 2rem;
+}
+
+.servicesList {
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}

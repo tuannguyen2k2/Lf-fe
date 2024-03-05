@@ -1,0 +1,55 @@
+.container {
+    height: 590px;
+    position: relative;
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: 0;
+    position: absolute;
+    top: 0;
+}
+
+.content {
+    display: grid;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid white;
+    color: var(--text-color-light);
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.5rem 2rem;
+}
+
+.wrapper {
+    color: var(--text-color-light);
+    margin-top: 3rem;
+}
+
+.cardInfo {
+    position: absolute;
+    right: -85px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.bannerContainer {
+    max-width: 1620px !important;
+}
+
+.title {
+    line-height: normal;
+}

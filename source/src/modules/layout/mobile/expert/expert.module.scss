@@ -1,0 +1,29 @@
+.info {
+    box-shadow: 0px -2px 15px 0px rgba(0, 172, 193, 0.25);
+    background: #fff;
+    border-radius: 10px;
+    margin: auto;
+    width: 360px;
+}
+
+.stat-box {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.numberStat {
+    text-align: center;
+    font-weight: var(--font-bold);
+    font-size: var(--h3-font-size);
+}
+.course {
+    margin-top: 10px;
+    display: grid;
+    gap: 20px 10px;
+    grid-template-columns: 1fr 1fr;
+    @media only screen and (max-width: 1024px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media only screen and (max-width: 495px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}

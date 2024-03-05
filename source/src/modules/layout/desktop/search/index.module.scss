@@ -1,0 +1,50 @@
+.headerSearch{
+    margin-bottom: 1rem;
+}
+
+.itemFilter{
+    padding: 12px 0;
+   
+}
+.lessonWrapper{
+    padding: 0.5rem 0 1rem 0 ;
+   .itemFilterChildren{
+    padding: 4px 0;
+   }
+}
+
+.body {
+    display: flex;
+    width: 100%;
+  }
+  
+  .filter,
+  .content {
+    transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+  
+  .filter {
+    background-color: #ffffff;
+    padding-top: 42px;
+    margin-right: 1rem;
+  }
+  
+  .content {
+    background-color: #ffffff;
+  }
+ 
+  
+  .body.expanded .filter {
+    width: 0%;
+    opacity: 0; 
+    margin-right: 0;
+
+  }
+  
+  .body.expanded .content {
+    width: 100%;
+  }
+  
+
+  
+

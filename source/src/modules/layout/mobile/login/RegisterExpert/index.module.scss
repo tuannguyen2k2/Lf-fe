@@ -1,0 +1,73 @@
+.header-login {
+    position: relative;
+    .icon-close {
+        position: absolute;
+        top: -15px;
+        right: 0;
+        svg {
+            width: var(--primary-font-size);
+            height: var(--primary-font-size);
+            stroke: #000;
+            stroke-width: 0.5px;
+        }
+    }
+}
+.icon-close {
+    margin-top: 20px;
+}
+.title {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1;
+}
+
+.btn-register {
+    height: 50px !important;
+    margin-bottom: 1.4rem;
+    .label {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+    }
+}
+
+.groupBrand {
+    button {
+        min-width: 120px;
+    }
+}
+.text-input-root {
+    .input {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        height: 50px;
+    }
+    .label {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        margin-bottom: 12px;
+    }
+}
+.text-area-root {
+    .input {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        height: 100px;
+    }
+    .label {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        margin-bottom: 12px;
+    }
+}
+.password-input-root {
+    .input {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        height: 50px;
+    }
+    .label {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        margin-bottom: 12px;
+    }
+}

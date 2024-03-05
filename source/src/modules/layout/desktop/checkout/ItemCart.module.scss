@@ -1,0 +1,28 @@
+.item {
+    margin-top: 5px;
+}
+
+.content {
+    padding: 10px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.timegroup {
+    padding-right: 0px;
+}
+.money {
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.oldprice {
+    text-decoration-line: line-through;
+}
+
+.newprice {
+    margin-top: 15px;
+    color: #00acc1;
+
+    font-style: normal;
+    line-height: normal;
+}

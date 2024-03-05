@@ -1,0 +1,91 @@
+.banner {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 6px 6px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "new1 new1 new2 new3"
+      "new1 new1 new4 new5";
+  }
+
+  .new1 { grid-area: new1;
+    align-self: stretch;
+}
+
+  .new2 {
+    grid-area: new2;
+ }
+
+  .new3 {
+    grid-area: new3;
+    width:'100%';
+    height:250;
+}
+
+  .new4 {
+    grid-area: new4;
+    width:'100%';
+    height:250;
+}
+
+  .new5 {
+    grid-area: new5;
+    width:'100%';
+    height:250;
+}
+
+.content {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    color: var(--text-color-light);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 2rem;
+    // grid-template-columns: 1fr 1fr;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid white;
+    color: var(--text-color-light);
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.5rem 2rem;
+}
+
+.wrapper {
+    color: var(--text-color-light);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.cardInfo {
+    position: absolute;
+    right: -85px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.bannerContainer {
+    max-width: 1620px !important;
+}
+
+.title {
+    line-height: normal;
+    color: var(--text-color-light);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}

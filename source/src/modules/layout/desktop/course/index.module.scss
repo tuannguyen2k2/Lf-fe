@@ -1,0 +1,73 @@
+.imageVideo {
+    width: 100%;
+    height: 400px;
+}
+
+// .container {
+//     border: 1px solid #dadada;
+//     border-radius: 5px;
+//     margin-bottom: 2rem;
+// }
+.healing {
+    color: var(--text-color);
+    cursor: pointer;
+    font-weight: var(--font-semi-bold);
+    font-size: var(--primary-font-size);
+}
+.item {
+    cursor: pointer;
+    // background: white;
+    background: rgb(209, 215, 220, 0.2);
+    // border-bottom: 1px solid #ccc;
+    padding: 15px 0px;
+    // padding: 30px 0px;
+}
+
+.name {
+    line-height: normal;
+}
+
+.arrow {
+    transition: 0.3s;
+    transform: rotate(90deg);
+    // margin-top: 15px;
+}
+
+// .lessonWrapper {
+//     padding: 1rem;
+// }
+
+.playButton {
+    width: 25px;
+}
+
+.lesson {
+    position: relative;
+    &:hover {
+        background: var(--background-color-light);
+    }
+    padding-left: 15px;
+    padding-right: 35px;
+}
+
+.lessonName {
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.time {
+    color: var(--text-color);
+    line-height: normal;
+}
+.icon {
+    color: green !important;
+    // position: absolute !important;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper {
+    color: var(--text-color-dark);
+    margin-left: 200;
+}

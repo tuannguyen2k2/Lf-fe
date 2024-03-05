@@ -1,0 +1,23 @@
+.item {
+    // width: 380px;
+    .itemcart {
+        // width: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 0;
+        border-radius: 10px;
+        &:hover {
+            outline: 1px solid #00acc1;
+        }
+        position: relative;
+    }
+}
+.trash {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    color: black;
+    &:hover {
+        color: red;
+    }
+}

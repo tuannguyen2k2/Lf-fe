@@ -1,0 +1,6 @@
+#!/bin/bash
+. "$(dirname -- "$0")/_/husky.sh"
+
+cd source
+
+npx lint-staged

@@ -1,0 +1,51 @@
+.item {
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+    padding: 20px;
+    margin-top: 15px;
+    border-bottom: 1px solid #d1d7dc;
+    // border-radius: 10px;
+    cursor: pointer;
+
+    .title {
+        // margin-top: 20px;
+        margin-bottom: 2px;
+        font-size: 50px;
+        font-weight: 500;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+    }
+
+    .numberstart {
+        color: var(--star-color);
+    }
+
+    .timegroup {
+        padding-right: 100px;
+    }
+    .money {
+        color: var(--primary-color);
+    }
+}
+.item:last-child{
+    border-bottom: 1px solid #ffffff;
+
+}
+.oldprice {
+    text-decoration-line: line-through;
+}
+
+.description {
+    margin-top: 10px;
+    // color: var(--primary-color);
+    line-height: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+
+

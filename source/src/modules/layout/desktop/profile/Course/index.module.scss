@@ -1,0 +1,29 @@
+.tabs-category {
+    padding-top: 30px;
+    .list-category {
+        font-weight: 600;
+        margin-bottom: 50px;
+        color: var(--title-color-2);
+        .tab-label-category {
+            font-size: var(--primary-font-size);
+            font-weight: var(--font-semi-bold);
+            text-align: left;
+        }
+    }
+    .list-category button[data-active] {
+        color: var(--title-color);
+        border-bottom: 2px solid var(--title-color);
+    }
+    .list-category button {
+        padding-left: 0;
+        margin-right: 1rem;
+    }
+}
+
+.title {
+    line-height: normal;
+    text-align: center;
+    color: var(--title-color);
+    padding: 20px;
+    border-bottom: 1px solid #00acc1;
+}

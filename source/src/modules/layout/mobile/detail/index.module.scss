@@ -1,0 +1,29 @@
+h1 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-bold);
+}
+p {
+    font-size: var(--primary-font-size);
+    font-weight: var(--font-normal);
+}
+
+.header {
+    background: var(--primary-color) !important;
+}
+
+.body{
+    padding: 0 !important;
+}
+.iconClose{
+    position: absolute;
+    top: 1rem;
+    right: 10px;
+    color:"#000";
+}
+.noData{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}

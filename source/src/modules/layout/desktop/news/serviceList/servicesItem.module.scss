@@ -1,0 +1,33 @@
+// ==============================
+.cart {
+    &:hover {
+        box-shadow: 0px -2px 15px 0px rgba(0, 172, 193, 0.25);
+    }
+}
+.product-title {
+    color: var(--text-color);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+
+.product-author {
+    color: var(--text-color);
+    font-size: 15px;
+    // margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.productPriceSale {
+    color: var(--primary-color);
+}
+
+.productCost {
+    text-decoration: line-through;
+    color: var(--text-color);
+}
+.card {
+    cursor: pointer;
+}

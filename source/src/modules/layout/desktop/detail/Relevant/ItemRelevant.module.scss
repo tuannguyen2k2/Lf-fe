@@ -1,0 +1,26 @@
+.item {
+    margin-top: 15px;
+    border-bottom: 1px solid #d1d7dc;
+    cursor: pointer;
+    .title {
+        // margin-top: 20px;
+        margin-bottom: 2px;
+    }
+    .numberstart {
+        color: var(--star-color);
+    }
+
+    .timegroup {
+        padding-right: 100px;
+    }
+    .money {
+        color: var(--primary-color);
+    }
+}
+.item:last-child{
+    border-bottom: 1px solid #ffffff;
+
+}
+.oldprice {
+    text-decoration-line: line-through;
+}

@@ -1,0 +1,49 @@
+.title {
+    font-size: 44px;
+    color: var(--primary-color);
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 2rem;
+}
+
+.teacher__list {
+    padding-top: 50px;
+    line-height: normal;
+}
+
+.card {
+    width: 355px;
+    height: 420px;
+    border-radius: 20px;
+    background: #fff;
+    margin-top: 15px;
+    margin-right: 20px;
+    // box-shadow: 0px -2px 2px rgba(0, 172, 193, 0.5);
+    box-shadow: 0px -2px 15px 0px rgba(0, 172, 193, 0.25);
+    padding: 20px 20px;
+    cursor: pointer !important;
+}
+
+.teacher__title {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--primary-color);
+}
+.teacher__title_name {
+    color: var(--primary-color);
+    text-align: center;
+}
+.teacher__desc {
+    color: var(--text-color);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.teacher {
+    // padding-bottom: 30px;
+}
+.avatar {
+    outline: 4px solid var(--primary-color);
+    margin-top: 10px;
+    border-radius: 50%;
+}

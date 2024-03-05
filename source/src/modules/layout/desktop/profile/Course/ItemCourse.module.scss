@@ -1,0 +1,26 @@
+.item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    // width: 1000px;
+    border-bottom: 1px solid #d1d7dc;
+
+    .itemcart {
+        // width: 960px;
+        padding: 10px 0;
+        // border-radius: 15px;
+
+        // outline: 1px solid #DFDFDF;
+        // &:hover{
+        //     outline: 1px solid #00ACC1;
+        // }
+    }
+    
+}
+.item:last-child{
+    border-bottom: 1px solid #fff;
+
+}
+.oldprice {
+    text-decoration-line: line-through;
+}
+

@@ -1,0 +1,21 @@
+.itemcart {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 1px solid #DFDFDF;
+    &:hover{
+        outline: 1px solid #00ACC1;
+    }
+    .iconStt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.iconDot{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}

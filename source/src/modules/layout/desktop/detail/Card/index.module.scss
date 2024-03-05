@@ -1,0 +1,16 @@
+.wrapper {
+    background-color: var(--container-color);
+    box-shadow: 0px -2px 15px 0px rgba(0, 172, 193, 0.25);
+    border-radius: var(--border-radius);
+    padding-bottom: 10px;
+    transform: translateY(-54%);
+    width: 480px;
+    margin-left: 30px;
+}
+.title {
+    font-size: var(--primary-font-size);
+    font-weight: var(--font-semi-bold);
+}
+.text {
+    font-size: var(--sub-font-size);
+}

@@ -1,0 +1,21 @@
+.item {
+    margin-top: 15px;
+    outline: 1px solid #dfdfdf;
+    &:hover {
+        outline: 1px solid #00acc1;
+    }
+    .title {
+        margin-top: 20px;
+        margin-bottom: 2px;
+    }
+    .numberstart {
+        color: var(--star-color);
+    }
+
+    .coursegroup {
+        padding-right: 100px;
+    }
+    .money {
+        color: var(--text-color);
+    }
+}

@@ -1,0 +1,17 @@
+.box {
+    background: white;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.button__image {
+    max-width: 50px;
+    object-fit: contain;
+
+    transform: translateX(-20%);
+}

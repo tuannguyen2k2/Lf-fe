@@ -1,0 +1,134 @@
+.other-profile {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 18px;
+    text-align: center;
+    position: relative;
+
+    span {
+        display: inline-block;
+        width: 150px;
+    }
+
+    ::before,
+    ::after {
+        content: '';
+        position: absolute;
+        width: calc(50% - 75px);
+        /* 50% width minus half of the desired total width */
+        height: 1px;
+        top: 10px;
+        background-color: #000;
+    }
+
+    ::before {
+        left: 0;
+    }
+
+    ::after {
+        right: 0;
+    }
+}
+
+.btn-update {
+    height: 50px !important;
+    border-radius: 7px;
+
+    .label {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+    }
+}
+
+.btn-change {
+    height: 50px !important;
+    background-color: white;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 7px;
+
+    .label {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+    }
+}
+
+.group-avatar {
+    button {
+        min-width: 130px !important;
+    }
+}
+
+.text-input-root,
+.date-input-root {
+    .input {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        height: 50px;
+    }
+
+    .label {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        margin-bottom: 12px;
+    }
+}
+
+.password-input-root {
+    .input {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        height: 50px;
+    }
+
+    .label {
+        font-size: var(--primary-font-size);
+        font-weight: var(--font-semi-bold);
+        margin-bottom: 12px;
+    }
+}
+
+.title {
+    line-height: normal;
+    text-align: center;
+    color: var(--title-color);
+    padding: 20px;
+    width: 850px;
+    border-bottom: 1px solid #00acc1;
+}
+
+.content {
+    width: 850px;
+}
+
+.titleProfile {
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+
+    .icon-close {
+        position: absolute;
+        top: 15px;
+        right: 5px;
+
+        svg {
+            width: var(--primary-font-size);
+            height: var(--primary-font-size);
+            stroke: #000;
+            stroke-width: 0.5px;
+        }
+    }
+}
+
+.avtar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.avatar {
+    // position: absolute;
+    // top: 15%;
+    // border-radius: 50%;
+}

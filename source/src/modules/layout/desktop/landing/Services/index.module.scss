@@ -1,0 +1,25 @@
+.services {
+    margin-top: 10rem;
+    margin-bottom: 80px;
+}
+
+.title {
+    color: var(--primary-color);
+    //padding-top: 2rem;
+    // margin-bottom: 2rem;
+}
+
+.servicesList {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.seeMore {
+    color: var(--text-color);
+    margin-top: 0px;
+    // margin-right: 10px;
+}

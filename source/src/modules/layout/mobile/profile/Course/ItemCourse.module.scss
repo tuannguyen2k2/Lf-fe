@@ -1,0 +1,16 @@
+.item {
+    margin-bottom: 10px;
+    .itemcart {
+        padding: 10px;
+        border-radius: 5px;
+        outline: 1px solid #DFDFDF;
+        &:hover{
+            outline: 1px solid #00ACC1;
+        }
+    }
+}
+
+.oldprice {
+    text-decoration-line: line-through;
+}
+

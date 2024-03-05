@@ -1,0 +1,21 @@
+.item {
+    margin-top: 15px;
+    outline: 1px solid #DFDFDF;
+    &:hover{
+        outline: 1px solid #00ACC1;
+    }
+}
+
+.itemMyCaccount {
+    margin-top: 15px;
+    outline: 1px solid #DFDFDF;
+    // box-shadow: 0px -2px 15px 0px #00ACC1;
+    border: 1px solid #00ACC1;
+    &:hover{
+        outline: 1px solid #00ACC1;
+    }
+}
+
+.title {
+    margin-top: 15px;
+}

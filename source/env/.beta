@@ -1,0 +1,9 @@
+REACT_APP_API = https://lf-api.developteam.net/
+REACT_APP_ENV = beta
+GENERATE_SOURCEMAP = false
+CI = false
+IMAGE_INLINE_SIZE_LIMIT = 0
+REACT_APP_ENABLE_EXPOSURE = true
+REACT_APP_USERNAME = abc_client
+REACT_APP_PASSWORD = abc123
+REACT_APP_WEB_SOCKET_URL = wss://lf-noti.developteam.net/ws

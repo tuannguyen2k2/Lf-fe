@@ -1,0 +1,28 @@
+.landingPage {
+    // min-height: 70vh;
+    // margin-top: 2rem;
+}
+
+.stat-box {
+    width: 175px;
+    height: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.numberStat {
+    font-weight: var(--font-bold);
+    font-size: var(--h3-font-size);
+}
+.banner {
+    color: var(--text-color-light);
+    background-color: var(--primary-color);
+    height: var(--banner-cart-height);
+    font-size: var(--big-font-size);
+    font-weight: var(--font-bold);
+}
+
+.bannerContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

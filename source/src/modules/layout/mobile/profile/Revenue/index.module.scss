@@ -1,0 +1,17 @@
+.titleProfile{
+    padding-top: 34px;
+    position: relative;
+    text-align: center;
+    .icon-close{
+        position: absolute;
+        top: 15px;
+        right: 0;
+        svg{
+            width: var(--primary-font-size);
+            height: var(--primary-font-size);
+            stroke: #000;
+            stroke-width:0.5px;
+           
+        }
+    }
+}

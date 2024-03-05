@@ -1,0 +1,25 @@
+.category-title {
+    padding-top: 39px;
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        color: var(--category-name);
+        margin-bottom: 0px;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 123.336%;
+        /* 59.201px */
+    }
+}
+
+.seeMore {
+    color: var(--text-color) !important;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

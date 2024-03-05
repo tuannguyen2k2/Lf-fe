@@ -1,0 +1,33 @@
+.item {
+    margin-top: 20px;
+    width: 100%;
+
+    .itemcart {
+        position: relative;
+        width: 100%;
+        padding: 10px 30px;
+        border-radius: 15px;
+        outline: 1px solid #dfdfdf;
+        &:hover {
+            outline: 1px solid #00acc1;
+        }
+    }
+}
+.timegroup {
+    padding-right: 30px;
+}
+.oldprice {
+    text-decoration-line: line-through;
+}
+.trash {
+    position: absolute;
+    color: black;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    width: 20px;
+    &:hover {
+        color: red;
+        width: 20px;
+    }
+}
